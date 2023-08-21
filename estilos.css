@@ -1,103 +1,225 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
 }
-.navbar{
+
+.navbar {
     height: 100px;
-    background-color:rgba(29, 27, 27, 0.819);
+    background-color: rgba(29, 27, 27, 0.819);
     box-shadow: 0 0 5px rgb(97, 95, 95) !important;
-     
- }
-.navbar-brand img{
+
+}
+
+.navbar-brand img {
     height: 60px;
 }
+
 .nav-link {
-    color: rgb(237, 157, 9) !important;
-  
-  }
-  .d-block{
+    color:rgb(32, 146, 146) !important;
+
+}
+
+.d-block {
     height: 400px;
     width: 100%;
-  }
+}
 
 
-.jumbotron{
+.jumbotron {
     display: block;
     height: 750px;
-    width:100%;
+    width: 100%;
     background-image: url(img/regalon.jpg);
     background-size: cover;
     background-position: center;
     /* filter: brightness(); */
-    
+
 
 }
+
 .p-5 {
-   flex-direction: row;
-   background-size: cover;   
-    
+    flex-direction: row;
+    background-size: cover;
 
 }
-h1{
-    background-color:#423f3f65;
-    color:white ;
-    margin: 0;
-    width: 60%;
-    
 
 
 
-}
-.jumbotron p{
+.jumbotron p {
     background-color: #423f3f65;
-    color:white;
+    color: white;
     box-shadow: inset;
     text-align: left;
     width: 60%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:rgb(32, 146, 146);
+    padding: 10px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.card {
+    width: 250px;
+    height: 500px;
+    background-color: #333;
+    border: 4px solid rgb(32, 146, 146);
+    display: grid;
+    filter: grayscale(100%);
+    transition: all 0.6s;
+
+
+
+}
+
+.card:hover {
+    filter: grayscale(0%);
+    transition: all 0.9s;
+    transform: scale(1.08);
+
+}
+
+.card-img1 {
+    background-image: url(img/Bokato\ Gold.png);
+    background-size: 230px;
+    height: 270px;
+    width: 100%;
+
+
+}
+
+.card-img2 {
+    background-image: url(img/Bokato\ Lady.png);
+    background-size: 210px;
+    height: 270px;
+    width: 100%;
+}
+
+.card-img3 {
+    background-image: url(img/Bokato\ Cachorro.png);
+    background-size: 230px;
+    height: 270px;
+    width: 100%;
+}
+
+.card-img4 {
+    background-image: url(img/Bokato\ petet.png);
+    background-size: 230px;
+    height: 270px;
+    width: 100%;
+}
+
+.card-img5 {
+    background-image: url(img/proplan\ perro.png);
+    background-size: 230px;
+    height: 270px;
+    width: 100%;
+}
+
+.card-img6 {
+    background-image: url(img/Purina\ Pro.png);
+    background-size: 230px;
+    height: 270px;
+    width: 100%;
+}
+
+
+.card-title {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+
+}
+
+.card-desc {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+
+
+}
+
+.card a {
+    color: #fff;
+    text-align: center;
+    background-color: rgb(32, 146, 146);
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+ footer {
   
+    height: 150px;
+    width: auto;
+    background-color: rgba(29, 27, 27, 0.819);
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    display: flex contents;
+    flex-wrap: wrap ;
+    text-align: center;  
+   }
+
+footer p {
+    margin-bottom: 10px;
     
 }
 
-footer{
-    height:150px;
-    background-color:rgba(29, 27, 27, 0.819);
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-
-}
-footer p{
-    margin-bottom: 20px;
-}
-footer i{
-    color: rgb(237, 157, 9);
-    font-size: 50px;
+footer i {
+    color:rgb(32, 146, 146);
+    font-size: 40px;
     letter-spacing: 30px;
 }
-.subir{
+.fa-brands {
+    color: rgb(32, 146, 146);
+}
+
+.subir {
     height: 40px;
     width: 40px;
-    background-color: orange;
-    color: white;
+    background-color:#333(255, 166, 0, 0.708);
+    color: rgb(32, 146, 146) !important;
     position: fixed;
     bottom: 40px;
     right: 40px;
     text-align: center;
     line-height: 40px;
     font-size: 28px;
-    box-shadow: 0 0 5px ;
-    
-
+    box-shadow: 0 0 5px #fff !important;
 
 }
+
 @media only screen and (min-width:0) and (max-width:576px) {
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: #333;
         display: flex;
         justify-content: center !important;
     }
-    
+
 }
+
 /* Estilo para el carrusel */
