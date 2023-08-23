@@ -10,6 +10,7 @@
     height: 100px;
     background-color: rgba(29, 27, 27, 0.819);
     box-shadow: 0 0 5px rgb(97, 95, 95) !important;
+    z-index: 9999;
 
 }
 
@@ -18,7 +19,7 @@
 }
 
 .nav-link {
-    color:rgb(32, 146, 146) !important;
+    color:orange !important;
 
 }
 
