@@ -60,7 +60,7 @@
 h2 {
     text-align: center;
     text-transform: uppercase;
-    background-color:rgb(32, 146, 146);
+    background-color:orange;
     padding: 10px;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
@@ -82,9 +82,9 @@ section {
     width: 250px;
     height: 500px;
     background-color: #333;
-    border: 4px solid rgb(32, 146, 146);
+    border: 4px solid orange;
     display: grid;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     transition: all 0.6s;
 
 
@@ -92,56 +92,175 @@ section {
 }
 
 .card:hover {
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
     transition: all 0.9s;
     transform: scale(1.08);
 
 }
 
+/* <!-- inicio section alimentos de perro --> */
+
+h3{
+    text-align: center;
+}
+
 .card-img1 {
-    background-image: url(img/Bokato\ Gold.png);
-    background-size: 230px;
-    height: 270px;
+    background-image: url(img/alimentos/XT-21.jpg);
+    background-size: 250px;
+    height: 290px;
     width: 100%;
 
 
 }
 
 .card-img2 {
-    background-image: url(img/Bokato\ Lady.png);
-    background-size: 210px;
-    height: 270px;
+    background-image: url(img/alimentos/Sabrokan2.png);
+    background-size: 270px;
+    height: 290px;
     width: 100%;
 }
 
 .card-img3 {
-    background-image: url(img/Bokato\ Cachorro.png);
-    background-size: 230px;
-    height: 270px;
+    background-image: url(img/alimentos/sansonDOG.jpg);
+    background-size: 270px;
+    height: 290px;
     width: 100%;
 }
 
 .card-img4 {
-    background-image: url(img/Bokato\ petet.png);
-    background-size: 230px;
-    height: 270px;
+    background-image: url(img/alimentos/Alfa\ Dog\ Adulto\ .jpg);
+    background-size: 300px;
+    height: 290px;
     width: 100%;
 }
 
 .card-img5 {
-    background-image: url(img/proplan\ perro.png);
-    background-size: 230px;
-    height: 270px;
+    background-image: url(img/alimentos/strong1.png);
+    background-size: 270px;
+    height: 290px;
     width: 100%;
 }
 
 .card-img6 {
-    background-image: url(img/Purina\ Pro.png);
-    background-size: 230px;
-    height: 270px;
+    background-image: url(img/alimentos/Fregood.jpg) !important;
+    background-size: 270px;
+    height: 290px;
     width: 100%;
 }
 
+.card-img7 {
+    background-image: url(img/alimentos/Master\ DOG.jpg);
+    background-size: 260px;
+    height: 290px;
+    width: 100%;
+}
+.card-img8 {
+    background-image: url(img/alimentos/master\ dog\ adulto\ alexis.png);
+    background-size: 240px;
+    height: 290px;
+    width: 100%;
+}
+.card-img9 {
+    background-image: url(img/alimentos/purinaone2.png);
+    background-size: 260px;
+    height: 290px;
+    width: 100%;
+}
+.card-img10 {
+    background-image: url(img/Bokato\ Lady.png);
+    background-size: 230px;
+    height: 290px;
+    width: 100%;
+}
+
+.card-img11 {
+    background-image: url(img/alimentos/bokato\ tradicional.jpg);
+    background-size: 300px;
+    height: 290px;
+    width: 100%;
+}
+.card-img12 {
+    background-image: url(img/alimentos/bokato\ cachorro\ premiun\ .jpg);
+    background-size: 220px;
+    height: 290px;
+    width: 100%;
+}
+.card-img13{
+    background-image: url(img/alimentos/bokato\ gold.jpg);
+    background-size: 220px;
+    height: 290px;
+    width: 100%;
+}
+.card-img14{
+    background-image: url(img/alimentos/bokato\ gold.jpg);
+    background-size: 220px;
+    height: 290px;
+    width: 100%;
+}
+.card-img15 {
+    background-image: url(img/alimentos/bokato\ gold.jpg);
+    background-size: 220px;
+    height: 290px;
+    width: 100%;
+}
+.card-img16 {
+    background-image: url(img/alimentos/bokato\ veloz\ .jpg);
+    background-size: 220px;
+    height: 290px;
+    width: 100%;
+}
+.card-img17 {
+    background-image: url(img/alimentos/cachupin\ adulto.jpg);
+    background-size: 260px;
+    height: 290px;
+    width: 100%;
+}
+.card-img18 {
+    background-image: url(img/alimentos/Yokan2.png);
+    background-size: 210px;
+    height: 290px;
+    width: 100%;
+}
+/* 
+<!-- fin section alimentos de perro -->
+  <!-- inicio section alimentos de Gatos --> */
+
+.card-img19 {
+    background-image: url(img/Purina\ ProPlan\ Gato.png);
+    background-size: 220px;
+    height: 290px;
+    width: 100%;
+}
+.card-img20 {
+    background-image: url(img/alimentos/FIT\ formula\ Gato\ .jpg);
+    background-size: 230px;
+    height: 290px;
+    width: 100%;
+}
+.card-img21 {
+    background-image: url(img/alimentos/bio\ cat\ .jpg);
+    background-size: 230px;
+    height: 290px;
+    width: 100%;
+}
+.card-img22 {
+    background-image: url(img/alimentos/wenuy\ adultos\ .jpg);
+    background-size: 230px;
+    height: 290px;
+    width: 100%;
+}
+.card-img23 {
+    background-image: url(img/alimentos/wenuy\ gatitos\ .jpg);
+    background-size: 230px;
+    height: 290px;
+    width: 100%;
+}
+.card-img24 {
+    background-image: url(img/alimentos/master\ cat\ lover.jpg);
+    background-size: 230px;
+    height: 290px;
+    width: 100%;
+}
 
 .card-title {
     text-align: center;
